@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "JavaScript Basics",
+    "category": "Programming",
+    "duration": "7 Days",
+    "level": "Beginner",
+    "img": "https://placehold.co/600x400?text=JavaScript",
+    "description": "Learn the fundamentals of JavaScript over the course of one week. Cover variables, data types, loops, functions, and basic DOM manipulation. By the end, you will be confident writing small scripts and understanding JS syntax."
+  },
+  {
+    "id": 2,
+    "title": "React Fundamentals",
+    "category": "Programming",
+    "duration": "7 Days",
+    "level": "Beginner",
+    "img": "https://placehold.co/600x400?text=React",
+    "description": "Get hands-on experience with React. Learn about components, props, state, and event handling. Build small interactive UI elements and understand the component lifecycle. Ideal for beginners ready to start building dynamic interfaces."
+  },
+  {
+    "id": 3,
+    "title": "CSS Flexbox Mastery",
+    "category": "Design",
+    "duration": "5 Days",
+    "level": "Beginner",
+    "img": "https://placehold.co/600x400?text=Flexbox",
+    "description": "Master Flexbox to create responsive layouts effortlessly. Understand main axis, cross axis, justify-content, align-items, and how to combine properties to solve common layout challenges. Perfect for making professional web layouts."
+  },
+  {
+    "id": 4,
+    "title": "UI Design Basics",
+    "category": "Design",
+    "duration": "7 Days",
+    "level": "Beginner",
+    "img": "https://placehold.co/600x400?text=UI+Design",
+    "description": "Learn essential UI principles including color theory, typography, spacing, and alignment. Understand how to design clean and consistent interfaces for web and mobile applications. Great for beginners exploring digital design."
+  },
+  {
+    "id": 5,
+    "title": "Time Management Challenge",
+    "category": "Productivity",
+    "duration": "7 Days",
+    "level": "Beginner",
+    "img": "https://placehold.co/600x400?text=Productivity",
+    "description": "Improve your daily workflow with small, actionable tasks. Learn to prioritize, set realistic goals, and avoid distractions. By the end of this challenge, you will have a simple system to manage your time effectively."
+  },
+  {
+    "id": 6,
+    "title": "Morning Workout Plan",
+    "category": "Fitness",
+    "duration": "7 Days",
+    "level": "Beginner",
+    "img": "https://placehold.co/600x400?text=Fitness",
+    "description": "Boost your energy and start your day strong with short, easy-to-follow morning workouts. Includes stretching, bodyweight exercises, and light cardio. Ideal for beginners looking to build consistency and improve overall fitness."
+  },
+  {
+    "id": 7,
+    "title": "Effective Communication",
+    "category": "Communication",
+    "duration": "5 Days",
+    "level": "Beginner",
+    "img": "https://placehold.co/600x400?text=Communication",
+    "description": "Develop clarity and confidence in your communication. Practice active listening, concise speaking, and structuring your thoughts effectively. This challenge is designed to help you improve personal and professional interactions."
+  },
+  {
+    "id": 8,
+    "title": "Advanced JavaScript",
+    "category": "Programming",
+    "duration": "7 Days",
+    "level": "Intermediate",
+    "img": "https://placehold.co/600x400?text=Advanced+JS",
+    "description": "Deep dive into advanced JavaScript concepts including closures, asynchronous programming, promises, and ES6+ features. Build practical mini-projects to strengthen your understanding and problem-solving skills."
+  },
+  {
+    "id": 9,
+    "title": "TypeScript Basics",
+    "category": "Programming",
+    "duration": "7 Days",
+    "level": "Beginner",
+    "img": "https://placehold.co/600x400?text=TypeScript",
+    "description": "Learn TypeScript fundamentals: types, interfaces, functions, and classes. Understand how TypeScript improves code safety and developer productivity when building JavaScript applications."
+  },
+  {
+    "id": 10,
+    "title": "Responsive Web Design",
+    "category": "Design",
+    "duration": "7 Days",
+    "level": "Beginner",
+    "img": "https://placehold.co/600x400?text=Responsive+Design",
+    "description": "Learn to create websites that look great on any device. Practice using media queries, flexible grids, and responsive images to build layouts that adapt to different screen sizes."
+  },
+  {
+    "id": 11,
+    "title": "React State Management",
+    "category": "Programming",
+    "duration": "7 Days",
+    "level": "Intermediate",
+    "img": "https://placehold.co/600x400?text=State+Management",
+    "description": "Understand different ways to manage state in React applications. Learn useState, useReducer, and context API. Build components that interact seamlessly and update dynamically based on user actions."
+  },
+  {
+    "id": 12,
+    "title": "UX Principles",
+    "category": "Design",
+    "duration": "7 Days",
+    "level": "Beginner",
+    "img": "https://placehold.co/600x400?text=UX",
+    "description": "Explore the basics of user experience design. Learn about usability, user flows, wireframing, and creating interfaces that are intuitive and engaging for users."
+  },
+  {
+    "id": 13,
+    "title": "Personal Productivity Boost",
+    "category": "Productivity",
+    "duration": "5 Days",
+    "level": "Beginner",
+    "img": "https://placehold.co/600x400?text=Focus",
+    "description": "Enhance your daily output by applying simple productivity techniques. Includes goal setting, planning, and small hacks to focus better and complete tasks efficiently."
+  },
+  {
+    "id": 14,
+    "title": "Healthy Eating Habits",
+    "category": "Fitness",
+    "duration": "7 Days",
+    "level": "Beginner",
+    "img": "https://placehold.co/600x400?text=Healthy+Food",
+    "description": "Learn simple, practical habits for healthier eating. Track meals, understand nutrition basics, and make sustainable changes to improve your overall well-being."
+  },
+  {
+    "id": 15,
+    "title": "Presentation Skills",
+    "category": "Communication",
+    "duration": "5 Days",
+    "level": "Beginner",
+    "img": "https://placehold.co/600x400?text=Presentation",
+    "description": "Develop skills to deliver effective presentations. Learn structuring content, engaging the audience, using visuals, and practicing delivery for maximum impact."
+  }
+]

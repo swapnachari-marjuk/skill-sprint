@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const ChallengeCard = ({ challenge }) => {
-    const { id, title, category, duration, level, img, description } = challenge;
+    const { _id, title, category, duration, level, img, description } = challenge;
 
 
     return (
@@ -31,7 +31,7 @@ const ChallengeCard = ({ challenge }) => {
                 </div>
 
                 <Link
-                    href={`/challenges/${id}`}
+                    href={`/challenges/${_id}`}
                     className="mt-4 inline-block text-sm font-medium text-indigo-600 hover:underline"
                 >
                     See more →

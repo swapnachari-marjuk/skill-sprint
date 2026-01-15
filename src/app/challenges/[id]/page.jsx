@@ -3,10 +3,9 @@ import React from 'react';
 const ChallangeDetails = async ({ params }) => {
     const { id } = await params;
     const baseUrl = process.env.FILE_BASE_URL
-    const response = await fetch(`${baseUrl}/data.json`);
-    const challanges = await response.json();
-    const filteredChallanges = challanges.find(challange => challange.id == id)
-    console.log(filteredChallanges);
+    const response = await fetch(`${baseUrl}/challenges/${id}`);
+    const challange = await response.json();
+    console.log(challange);
 
     return (
         <div className='bg-gray-50 py-10'>
@@ -14,8 +13,8 @@ const ChallangeDetails = async ({ params }) => {
                 {/* Image */}
                 <div className="w-full h-64 md:h-96 rounded-xl overflow-hidden mb-8">
                     <img
-                        src={filteredChallanges.img}
-                        alt={filteredChallanges.title}
+                        src={challange.img}
+                        alt={challange.title}
                         className="w-full h-full object-cover"
                     />
                 </div>
@@ -23,20 +22,20 @@ const ChallangeDetails = async ({ params }) => {
                 {/* Meta Info */}
                 <div className="flex flex-wrap gap-4 text-sm text-gray-500 mb-4">
                     <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full">
-                        {filteredChallanges.category}
+                        {challange.category}
                     </span>
-                    <span>{filteredChallanges.duration}</span>
-                    <span>{filteredChallanges.level}</span>
+                    <span>{challange.duration}</span>
+                    <span>{challange.level}</span>
                 </div>
 
                 {/* Title */}
                 <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                    {filteredChallanges.title}
+                    {challange.title}
                 </h1>
 
                 {/* Description */}
                 <p className="text-gray-600 leading-relaxed max-w-3xl">
-                    {filteredChallanges.description}
+                    {challange.description}
                 </p>
 
                 {/* CTA */}

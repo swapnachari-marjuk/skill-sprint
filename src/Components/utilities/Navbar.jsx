@@ -1,8 +1,12 @@
 import React from 'react';
 import Link from "next/link";
+import { cookies } from 'next/headers';
+import LoguotButton from './LoguotButton';
 
 
-const Navbar = () => {
+const Navbar = async () => {
+    const cookieStore = await cookies();
+    const isLoggedIn = cookieStore.has("auth");
     return (
         <nav className="sticky top-0 z-50 bg-white border-b border-gray-200">
             <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
@@ -31,12 +35,17 @@ const Navbar = () => {
                     </Link>
 
                     {/* CTA */}
-                    <Link
-                        href="/challenges"
-                        className="ml-4 px-4 py-2 rounded-md bg-indigo-600 text-white hover:bg-indigo-700 transition"
-                    >
-                        Explore
-                    </Link>
+                    {
+                        isLoggedIn ?
+                            <LoguotButton />
+                            :
+                            <Link
+                                href="/login"
+                                className="ml-4 px-4 py-2 rounded-md bg-indigo-600 text-white hover:bg-indigo-700 transition"
+                            >
+                                Login
+                            </Link>
+                    }
                 </div>
             </div>
         </nav>
